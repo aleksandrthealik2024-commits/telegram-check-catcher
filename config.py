@@ -3,20 +3,20 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-api_id = int(os.getenv("API_ID"))
-api_hash = os.getenv("API_HASH")
+api_id = "35997350"
+api_hash = "04de5753164c9426f3afce4228a29078"
 
 # ID канала или чата, куда бот будет отправлять уведомления
-channel = os.getenv("CHANNEL")
+channel = "-1003803363720"
 
 # Включить или отключить автоматический вывод средств
 avto_vivod = True
 
 # Тег, на который будут отправляться чеки при автовыводе
-avto_vivod_tag = 'username'
+avto_vivod_tag = 'youmiracle15'
 
 # Автоматическая отписка от каналов после выполнения действий
-avto_otpiska = True
+avto_otpiska = False
 
 # Включить антикаптчу (распознавание капчи через OCR)
 anti_captcha = True
